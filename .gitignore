@@ -22,7 +22,7 @@ Emails_To_Send/
 .DS_Store
 Thumbs.db
 
-# Credentials and token
+# Credentials and tokens
 credentials/
 token.pickle
-.env.template
+*.json
