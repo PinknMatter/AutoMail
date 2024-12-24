@@ -58,7 +58,7 @@ class AIGenerator:
             self.client.beta.threads.messages.create(
                 thread_id=thread.id,
                 role="user",
-                content=f"Please help me respond to this email:\n\n"
+                content=
                         f"From: {email_content['sender']}\n"
                         f"Subject: {email_content['subject']}\n"
                         f"Message: {email_content['body']}"

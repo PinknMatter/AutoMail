@@ -21,3 +21,7 @@ Emails_To_Send/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Credentials and token
+credentials/
+token.pickle
